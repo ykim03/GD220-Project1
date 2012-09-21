@@ -1,0 +1,132 @@
+
+
+#slogan {
+	display: none;
+}
+
+#sloganmob {
+	font-size: 16px;
+}
+
+#hours {
+	display: none;
+}
+
+
+#foodq {
+	display: none;
+}
+
+.imptext {font-size: 24px;}
+
+.bullet {
+	font-size: 18px;
+}
+
+.subcat {
+	font-size: 20px;
+	text-decoration: underline;
+	}
+
+.item {font-size: 18px; }
+
+
+
+h2.imptext {
+	display: block;
+	font-weight:900;
+	background-color: #e64412;
+	
+	color: white;
+	text-align: center;
+}
+
+
+
+h2.imptext span {
+	display: none;
+}
+
+.section {
+	margin: 0 20px;
+}
+
+
+
+
+@media screen and (min-width:700px){
+	body {
+		
+	}
+	h2.imptext {
+		background-color: transparent;
+		color: black;
+		text-align: left;
+		font-size: 20px;
+		font-weight: 100;
+	} 
+	h2.imptext span {
+		display: inline;
+	}
+	#slogan {
+		display: block;
+		font-size: 16px;
+		text-align: center;
+		
+	}
+	#sloganmob {
+		display: none;
+	}
+	#hours {
+		display: block;
+		width: 330px;
+		background-color: #f8ecd5;
+		float: left;
+		margin-right: 50px;
+		padding-right: 10px;
+			
+	}
+	.day {
+		font-size: 16px;
+		text-decoration: underline;
+	}
+	.specialhr {
+		color: #e64412;
+	}
+	.hrblk {
+		text-align: right;
+	}
+	
+	#foodq {
+		display: block;
+	}
+	.category {
+		color: #e64412;
+		font-size: 24px;
+		margin-top: 150px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
