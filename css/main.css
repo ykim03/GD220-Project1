@@ -1,15 +1,22 @@
-
+html {
+	background: ;
+}
 
 #slogan {
 	display: none;
 }
 
 #sloganmob {
+	
 	font-size: 16px;
 }
 
 #hours {
 	display: none;
+}
+
+.nav a {
+	background: #e64412 url(../img/image_name.jpg) left center repeat;
 }
 
 
@@ -34,11 +41,37 @@
 
 h2.imptext {
 	display: block;
-	font-weight:900;
-	background-color: #e64412;
+	position: relative;
+	font-family: 'Stoke',serif;
+	font-weight:400;
+	background: #e64412 url() left top repeat;
 	
 	color: white;
 	text-align: center;
+}
+
+h2.imptext:before {
+	content:"";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 20px;
+	height: 36px;
+	background: #000;
+	//  url(left image) left top repeat
+}
+
+h2.imptext:after {
+	content:"";
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline-block;
+	width: 20px;
+	height: 36px;
+	background: #000;
+	// url(right image) left top repeat
 }
 
 
@@ -57,6 +90,18 @@ h2.imptext span {
 @media screen and (min-width:700px){
 	body {
 		
+	}
+	
+
+	#header {
+		position: relative;
+		height: 150px;	
+		background: transparent url('../img/bg.jpg') left bottom repeat-x;	
+	}
+	#header .nav {
+		position: absolute;
+		bottom: 0;
+		right: 36px;
 	}
 	h2.imptext {
 		background-color: transparent;
@@ -103,7 +148,6 @@ h2.imptext span {
 	.category {
 		color: #e64412;
 		font-size: 24px;
-		margin-top: 150px;
 	}
 }
 
