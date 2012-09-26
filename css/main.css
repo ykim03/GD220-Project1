@@ -1,5 +1,5 @@
-html {
-	background: ;
+body {
+	background: url(../img/paper.jpg) left top repeat
 }
 
 #slogan {
@@ -7,8 +7,8 @@ html {
 }
 
 #sloganmob {
-	
-	font-size: 16px;
+	font-family: 'Tienne', serif;	
+	font-size: 12px;
 }
 
 #hours {
@@ -42,48 +42,22 @@ html {
 h2.imptext {
 	display: block;
 	position: relative;
-	font-family: 'Stoke',serif;
-	font-weight:400;
+	font-family: 'Tienne', serif;
+	font-weight:500;
 	background: #e64412 url() left top repeat;
-	
 	color: white;
 	text-align: center;
-}
-
-h2.imptext:before {
-	content:"";
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: inline-block;
-	width: 20px;
-	height: 36px;
-	background: #000;
-	//  url(left image) left top repeat
-}
-
-h2.imptext:after {
-	content:"";
-	position: absolute;
-	top: 0;
-	right: 0;
-	display: inline-block;
-	width: 20px;
-	height: 36px;
-	background: #000;
-	// url(right image) left top repeat
+	margin-top: 20px;
 }
 
 
 
-h2.imptext span {
-	display: none;
-}
+
+
 
 .section {
 	margin: 0 20px;
 }
-
 
 
 
@@ -125,7 +99,6 @@ h2.imptext span {
 	#hours {
 		display: block;
 		width: 330px;
-		background-color: #f8ecd5;
 		float: left;
 		margin-right: 50px;
 		padding-right: 10px;
