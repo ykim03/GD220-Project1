@@ -1,24 +1,50 @@
 body {
-	background: url(../img/paper.jpg) left top repeat
+
+	background: url(../img/background.jpg) left top repeat ;
+	font-family: 'Droid Sans', sans-serif;
+	
 }
+
+#img {
+	position: relative; 
+	margin-top: 20px;
+}
+
+#mainlogo {display: none;}
 
 #slogan {
 	display: none;
 }
 
 #sloganmob {
-	font-family: 'Tienne', serif;	
-	font-size: 12px;
+	position: relative;
+	display: block;
+	font-size: 16px;
+	text-align: center;
 }
 
 #hours {
 	display: none;
 }
 
-.nav a {
-	background: #e64412 url(../img/image_name.jpg) left center repeat;
+#about {
+	background: url(../img/transparentlogo.tif) center 100px no-repeat;
 }
 
+#about .imptext {
+	text-align: center;
+	background: url(../img/nav-bg-desktop.png) center top no-repeat;
+}
+
+#ghost {
+	margin-top: 10px;
+	position: absolute;
+}
+
+#aboutpar {
+	display: block;
+	margin-top: 150px;
+}
 
 #foodq {
 	display: none;
@@ -31,37 +57,52 @@ body {
 }
 
 .subcat {
-	font-size: 20px;
+	font-family: 'Crete Round', serif;
+	font-size: 22px;
 	text-decoration: underline;
 	}
 
-.item {font-size: 18px; }
+.item {
+	font-family: 'Crete Round', serif;
+	font-size: 18px; 
+		font-weight:400;
+}
 
 
 
 h2.imptext {
 	display: block;
 	position: relative;
-	font-family: 'Tienne', serif;
-	font-weight:500;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight:600;
 	background: #e64412 url() left top repeat;
 	color: white;
 	text-align: center;
 	margin-top: 20px;
 }
+.category {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
 
 
-
-
-
+.noshow {
+	display: none;
+}
 
 .section {
 	margin: 0 20px;
 }
 
+#address {
+	display: none;
+}
 
+#reservation {
+	display: none;
+}
 
-@media screen and (min-width:700px){
+@media screen and (min-width:800px){
 	body {
 		
 	}
@@ -69,13 +110,46 @@ h2.imptext {
 
 	#header {
 		position: relative;
-		height: 150px;	
-		background: transparent url('../img/bg.jpg') left bottom repeat-x;	
+		height: 120px;	
+		background: transparent url('../img/bar.tif') left bottom repeat-x;	
+		display: block;
+		margin-top: 50px;
 	}
+	
+	#reservation {
+		float: right;
+	}
+	
+	#address {
+		display: block;
+		position: relative;
+		float: right;
+		margin-top: -25px;
+		font-weight: 300;
+	}
+	
+	#spacing {
+		color: transparent;
+	}
+	
+	#mainlogo {
+		display: block;
+		position: absolute;
+		z-index: 1;
+		margin-top: -45px;
+		margin-left: 10px;
+	}
+	
+	.category {
+		display: none;
+	}
+	
+	
 	#header .nav {
 		position: absolute;
 		bottom: 0;
 		right: 36px;
+		z-index: 0;
 	}
 	h2.imptext {
 		background-color: transparent;
@@ -84,7 +158,14 @@ h2.imptext {
 		font-size: 20px;
 		font-weight: 100;
 	} 
+	#about .imptext {
+		text-align: left;
+		background: none;
+	}
 	h2.imptext span {
+		display: inline;
+	}
+	.noshow {
 		display: inline;
 	}
 	#slogan {
@@ -100,11 +181,13 @@ h2.imptext {
 		display: block;
 		width: 330px;
 		float: left;
+		margin-top: 40px;
 		margin-right: 50px;
 		padding-right: 10px;
 			
 	}
 	.day {
+		font-family: 'Crete Round', serif;
 		font-size: 16px;
 		text-decoration: underline;
 	}
@@ -122,19 +205,40 @@ h2.imptext {
 		color: #e64412;
 		font-size: 24px;
 	}
+	
+	#ghost {
+		display: none;
+	}
+
+	#aboutpar {
+		display: block;
+		margin-top: 0;
+	}
+	section {
+		display: none;
+	}
+	
+	#header .nav {
+		margin: 0;
+		vertical-align: baseline;
+	}
+	
+	#header .nav a {
+		display: inline-block;
+		width: 150px;
+		padding: 15px 0;
+		font-size: 36px;
+		text-align: center;
+		text-decoration: none;
+		color: #fff;
+		background: transparent url(../img/nav-bg-desktop.png) left top no-repeat;
+	}
+
+	#header .nav .here {
+		color: #000;
+	}
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

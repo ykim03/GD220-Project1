@@ -12,7 +12,8 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link href='http://fonts.googleapis.com/css?family=Tienne:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/framework.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
@@ -23,20 +24,32 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-                
-        <div class="container" >
-        
-		<div id="header">	        
+            
+        <div class="container">
+        <img src="img/logo.tif" width="200" height="210" id="mainlogo">
+		
+					<p id="address">31 Allegheny Ave. Towson, MD 21204 <span id="spacing">___</span>
+410-337-0133</p>
+		<div id="header">
+			<img src="img/reservation.tif" id="reservation">        
+
 	        <h1 id="sloganmob">
-	        <img src="img/test.png" alt="placeholder" width="100" height="100">
+	        <img src="img/logo.tif" alt="placeholder" width="250" height="265" id="img">
 	        	Traditional & Innovative Italian Cuisine</h1>
+	        	
 	        <div class="nav section">
-		        <a href="#about">ABOUT</a>
-		        <a href="#menu">MENU</a>   
-		        <a href="#events">EVENTS</a> 
-		        <a href="#directions">DIRECTIONS</a>     
-	
-	        </div>   
+		        
+		        <a href="#about">
+			        About
+		        </a>
+		        
+		        <a href="#menu"><img src="img/buttons/mobile/menu.tif"></a>   
+		        <a href="#events"><img src="img/buttons/mobile/events.tif"></a> 
+		        <a href="#info"><img src="img/buttons/mobile/info.tif"></a>     
+	        </div> 
+	   
+	     
+	          
         </div>    
         
         <div id="hours">
@@ -71,14 +84,17 @@
                         </ul>
         </div>
         
-              
+        <div id="content">      
               
         <div id="about" class="section">
         	
-        	<h2 class="imptext">
-        		ABOUT <span>CAFE TROIA</span>
-        	</h2>
-        	    <p> Cafe Troia was established in 1986 by the Troia family, natives of Naples, Italy. The family has generations-old traditions in good cooking and eating. With meticulous attention to high quality ingredients, traditional and innovative Italian cooking and unsurpassed service, Cafe Troia became practically a landmark in Towson.
+        	
+        	
+        		 <h2 class="imptext">ABOUT <span class="noshow" id="abouttext">CAFE TROIA : HISTORY</span>
+        		 </h2>
+        	
+        		 
+        	    <p id="aboutpar"> Cafe Troia was established in 1986 by the Troia family, natives of Naples, Italy. The family has generations-old traditions in good cooking and eating. With meticulous attention to high quality ingredients, traditional and innovative Italian cooking and unsurpassed service, Cafe Troia became practically a landmark in Towson.
         	    </p>
         	
         	<div id="foodq">
@@ -92,7 +108,8 @@
         </div>
         
         <div id="menu" class="section">
-        	<h2  class="imptext"><span class="category">MENU</span></h2>
+        	<img src="img/buttons/mobile/menubutton.tif" class="category">
+        	
         		
         		<div id="appetizer">
         	
@@ -160,7 +177,7 @@
         </div>
         	
         	<div id="events" class="section">
-        		<h2 class="imptext"><span class="category">EVENTS</span></h1>
+        		<img src="img/buttons/mobile/eventsbutton.tif" class="category">
         		<h3 class="bullet">BANFI WINE DINNER</h3>
         			<p>Join us on Tues. September 18th at 6:30 p.m. for a 4 course Prix Fixe Wine Dinner featuring Banfi wines paired with special dishes cread for this dinner.</p>
         		<h3 class="bullet">HAPPY HOUR!</h3>
@@ -172,10 +189,10 @@
         	
         				
         	<div id="directions" class="section">
-        	<h2 class="imptext"><span class="category">DIRECTIONS</span></h1>
+        	<img src="img/buttons/mobile/infobutton.tif" class="category">
         		
         	</div>
-        	
+        </div> <!-- /#content -->
         	
                           
                           
