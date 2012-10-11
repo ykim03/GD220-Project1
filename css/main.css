@@ -21,6 +21,7 @@ body {
 	display: block;
 	font-size: 16px;
 	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 #hours {
@@ -32,8 +33,95 @@ body {
 }
 
 #about .imptext {
+	position: static;
+	display: block;
 	text-align: center;
-	background: url(../img/nav-bg-desktop.png) center top no-repeat;
+	background: url(../img/buttons/mobile/button.tif) center top no-repeat ;
+	height: 60px;
+	padding-top: 8px;
+	margin-top: 180px;
+}
+
+#menu .imptext {
+	text-align: center;
+	background: url(../img/buttons/mobile/button.tif) center top no-repeat ;
+	height: 60px;
+	padding-top: 8px;
+	margin-top: 180px;
+}
+
+
+#events .imptext {
+	text-align: center;
+	background: url(../img/buttons/mobile/button.tif) center top no-repeat ;
+	height: 60px;
+	padding-top: 8px;
+	margin-top: 180px;
+}
+
+#directions .imptext {
+	text-align: center;
+	background: url(../img/buttons/mobile/button.tif) center top no-repeat ;
+	height: 60px;
+	padding-top: 8px;
+	margin-top: 180px;
+}
+
+#sabout {
+	text-align: center;
+	font-size: 26px;
+	padding-top: 16px;
+	color: white;
+	font-family: 'Crete Round', serif;
+	display: inline-block;
+	background: url(../img/buttons/mobile/sbutton.tif) no-repeat left top;
+	height: 60px;
+	width: 130px;
+	float: left;
+	position: relative;
+	 
+}
+
+#smenu {
+	text-align: center;
+	font-size: 26px;
+	padding-top: 16px;
+	color: white;
+	font-family: 'Crete Round', serif;
+	display: inline-block;
+	background: url(../img/buttons/mobile/sbutton.tif) no-repeat left top;
+	height: 60px;
+	width: 130px;
+	float: right;
+	 
+}
+
+#sevents {
+	text-align: center;
+	font-size: 26px;
+	padding-top: 16px;
+	color: white;
+	font-family: 'Crete Round', serif;
+	display: inline-block;
+	background: url(../img/buttons/mobile/sbutton.tif) no-repeat left top;
+	height: 60px;
+	width: 130px;
+	float: left;
+	 
+}
+
+#sdirections {
+	text-align: center;
+	font-size: 26px;
+	padding-top: 16px;
+	color: white;
+	font-family: 'Crete Round', serif;
+	display: inline-block;
+	background: url(../img/buttons/mobile/sbutton.tif) no-repeat left top;
+	height: 60px;
+	width: 130px;
+	float: right;
+	 
 }
 
 #ghost {
@@ -54,6 +142,7 @@ body {
 
 .bullet {
 	font-size: 18px;
+	font-family: 'Crete Round', serif;
 }
 
 .subcat {
@@ -102,6 +191,47 @@ h2.imptext {
 	display: none;
 }
 
+#dmap {
+	display: none;
+}
+
+#dirbullet {
+	text-align: center;
+	display:block;
+	color: #e64412;
+	margin-top: 20px;
+}
+.center {
+	text-align: center;
+	display: block;
+}
+
+#mobhr {
+	text-align: center;
+	display:block;
+	color: #e64412;	
+	margin-top: 20px;
+}
+
+#mobmap {
+	display: none;
+}
+
+#dmap {display: block;}
+
+.hrmob .day {
+	font-family: 'Crete Round', serif;
+	font-size: 18px;
+}
+
+.hrmob .specialhr {
+	color: #e64412;
+}
+
+.hrmob {
+	text-align: center;
+}
+
 @media screen and (min-width:800px){
 	body {
 		
@@ -118,6 +248,7 @@ h2.imptext {
 	
 	#reservation {
 		float: right;
+		display: block;
 	}
 	
 	#address {
@@ -139,11 +270,16 @@ h2.imptext {
 		margin-top: -45px;
 		margin-left: 10px;
 	}
+
 	
 	.category {
 		display: none;
 	}
 	
+	.nav .section {
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
 	
 	#header .nav {
 		position: absolute;
@@ -158,9 +294,14 @@ h2.imptext {
 		font-size: 20px;
 		font-weight: 100;
 	} 
+	#about {
+		background: none;
+	}
+	
 	#about .imptext {
 		text-align: left;
 		background: none;
+		margin-top: 30px;
 	}
 	h2.imptext span {
 		display: inline;
@@ -172,17 +313,17 @@ h2.imptext {
 		display: block;
 		font-size: 16px;
 		text-align: center;
-		
+		font-family: 'Droid Sans', sans-serif;
 	}
 	#sloganmob {
 		display: none;
 	}
 	#hours {
 		display: block;
-		width: 330px;
+		width: 280px;
 		float: left;
 		margin-top: 40px;
-		margin-right: 50px;
+		margin-right: 0px;
 		padding-right: 10px;
 			
 	}
@@ -198,6 +339,16 @@ h2.imptext {
 		text-align: right;
 	}
 	
+	#menu {
+		display: block;
+		margin-top: 40px;
+	}
+	
+	#events {
+		display: block;
+		margin-top: 40px;		
+	}
+	
 	#foodq {
 		display: block;
 	}
@@ -206,9 +357,6 @@ h2.imptext {
 		font-size: 24px;
 	}
 	
-	#ghost {
-		display: none;
-	}
 
 	#aboutpar {
 		display: block;
@@ -223,9 +371,19 @@ h2.imptext {
 		vertical-align: baseline;
 	}
 	
+	#content {
+		float: left;
+		width: 620px;
+		margin-left: 20px;
+	}
+	
+	
 	#header .nav a {
 		display: inline-block;
+		margin-left: 10px;
 		width: 150px;
+		height: 50px;
+		font-size: 20px !important;
 		padding: 15px 0;
 		font-size: 36px;
 		text-align: center;
@@ -238,6 +396,24 @@ h2.imptext {
 		color: #000;
 	}
 
+	#directions .imptext {
+		display: none;
+	}
+	
+	#events .imptext {
+		display: none;
+	}
+	#menu .imptext {
+		display: none;
+	}
+	
+	#mobile {
+		display: none;
+	}
+	
+	#dmap {
+		margin-bottom: 20px;
+	}
 }
 
 
