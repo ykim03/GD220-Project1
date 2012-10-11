@@ -215,10 +215,10 @@ h2.imptext .section {
 }
 
 #mobmap {
-	display: none;
+	display: block;
 }
 
-#dmap {display: block;}
+#dmap {display: none;}
 
 .hrmob .day {
 	font-family: 'Crete Round', serif;
@@ -233,11 +233,22 @@ h2.imptext .section {
 	text-align: center;
 }
 
+#mobile {
+	display: block;
+}
+
+	
+	.container {
+		width: 300px;
+	}
 @media screen and (min-width:800px){
 	body {
 		
 	}
 	
+	.container {
+		width: 978px;
+	}
 
 	#header {
 		position: relative;
@@ -268,8 +279,8 @@ h2.imptext .section {
 		display: block;
 		position: absolute;
 		z-index: 1;
-		margin-top: -45px;
-		margin-left: 10px;
+		margin-top: -40px;
+		margin-left: 30px;
 	}
 
 	
@@ -388,6 +399,7 @@ h2.imptext .section {
 		text-decoration: none;
 		color: #fff;
 		margin-bottom: -10px;
+		float: none;
 	}
 	
 
