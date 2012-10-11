@@ -31,7 +31,7 @@
 					<p id="address">31 Allegheny Ave. Towson, MD 21204 <span id="spacing">___</span>
 410-337-0133</p>
 		<div id="header">
-			<img src="img/reservation.tif" id="reservation">        
+			<a href="http://www.opentable.com/cafe-troia-reservations-towson?rid=36913&restref=36913"> <img src="img/reservation.tif" id="reservation"></a>        
 
 	        <h1 id="sloganmob">
 	        <img src="img/logo.tif" alt="placeholder" width="250" height="265" id="img">
@@ -39,13 +39,13 @@
 	        	
 	        <div class="nav section">
 		        
-		        <a href="#about">
-			        About
+		        <a href="#about" id="sabout">
+			        ABOUT
 		        </a>
 		        
-		        <a href="#menu"><img src="img/buttons/mobile/menu.tif"></a>   
-		        <a href="#events"><img src="img/buttons/mobile/events.tif"></a> 
-		        <a href="#info"><img src="img/buttons/mobile/info.tif"></a>     
+		        <a href="#menu" id="smenu">MENU</a>   
+		        <a href="#events" id="sevents">EVENTS</a> 
+		        <a href="#directions"id="sdirections">INFO</a>     
 	        </div> 
 	   
 	     
@@ -93,7 +93,7 @@
         		 <h2 class="imptext">ABOUT <span class="noshow" id="abouttext">CAFE TROIA : HISTORY</span>
         		 </h2>
         	
-        		 
+        		 <div class="block">
         	    <p id="aboutpar"> Cafe Troia was established in 1986 by the Troia family, natives of Naples, Italy. The family has generations-old traditions in good cooking and eating. With meticulous attention to high quality ingredients, traditional and innovative Italian cooking and unsurpassed service, Cafe Troia became practically a landmark in Towson.
         	    </p>
         	
@@ -106,10 +106,10 @@
         	<p>During the summer months, we purchase most of our produce from the Farmers Market, held right here on Allegheny Avenue each Thursday from 11:00 to 3:00.</p>
         	</div>
         </div>
+        </div>
         
         <div id="menu" class="section">
-        	<img src="img/buttons/mobile/menubutton.tif" class="category">
-        	
+        	<h2 class="imptext">MENU</h2>        	
         		
         		<div id="appetizer">
         	
@@ -177,7 +177,7 @@
         </div>
         	
         	<div id="events" class="section">
-        		<img src="img/buttons/mobile/eventsbutton.tif" class="category">
+        		<h2 class="imptext">EVENTS</h2> 
         		<h3 class="bullet">BANFI WINE DINNER</h3>
         			<p>Join us on Tues. September 18th at 6:30 p.m. for a 4 course Prix Fixe Wine Dinner featuring Banfi wines paired with special dishes cread for this dinner.</p>
         		<h3 class="bullet">HAPPY HOUR!</h3>
@@ -188,9 +188,45 @@
         	
         	
         				
-        	<div id="directions" class="section">
-        	<img src="img/buttons/mobile/infobutton.tif" class="category">
-        		
+        	<div id="directions" id="section">
+        	<h2 class="imptext">INFO</h2> 
+        	
+        	<h3 class="bullet" id="dirbullet"> LOCATION</h3>
+        	<p class="center">31 Allegheny Ave. Towson, MD 21204</p>
+        	<a href="http://maps.stamen.com/watercolor/#15/39.3950/-76.5971" class="center" id="mobmap">CLICK HERE FOR DIRECTIONS</a>
+        	<iframe width="600" height="420" id="dmap" src="http://maps.stamen.com/watercolor/embed#15/39.3950/-76.5971"></iframe>	
+        	</div>
+        	
+        	<div id="mobile">
+        	<h3 class="bullet" id="mobhr"> HOURS</h3>
+        	
+        	<ul class="hrmob">
+                <li>
+                    <h4 class="day">Monday-Friday</h4>
+                    <p class="time">11:00 - Close</p>
+                </li>
+                
+                <li>
+                    <h4 class="day">Saturday</h4>
+                    <p class="time">5:00 - Close</p>
+                </li>
+                
+                <li>
+                    <h4 class="day">Sunday</h4>
+                    <p class="time">5:00 - 9:00</p>
+                </li>
+                
+                <li>
+                    <h4 class="day">Holiday Hours</h4>
+                    <p class="time">
+                    <strong class="specialhr">Open</strong>
+                    Thanksgiving & Christmas Eve</p>
+                    <p class="time"
+                    ><strong class="specialhr">Closed</strong>
+                    Christmas Day & New Year's Day</p>
+                </li>
+                 
+                        </ul>
         	</div>
         </div> <!-- /#content -->
         	
