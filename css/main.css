@@ -124,14 +124,11 @@ body {
 	 
 }
 
-#ghost {
-	margin-top: 10px;
-	position: absolute;
-}
+
 
 #aboutpar {
 	display: block;
-	margin-top: 150px;
+	margin-top: 175px;
 }
 
 #foodq {
@@ -168,6 +165,10 @@ h2.imptext {
 	color: white;
 	text-align: center;
 	margin-top: 20px;
+}
+
+h2.imptext .section {
+	width: 280px;
 }
 .category {
 	margin-top: 20px;
@@ -276,10 +277,7 @@ h2.imptext {
 		display: none;
 	}
 	
-	.nav .section {
-		padding-bottom: 0px;
-		margin-bottom: 0px;
-	}
+
 	
 	#header .nav {
 		position: absolute;
@@ -381,16 +379,18 @@ h2.imptext {
 	#header .nav a {
 		display: inline-block;
 		margin-left: 10px;
-		width: 150px;
-		height: 50px;
+		width: 125px;
+		height: 40px;
 		font-size: 20px !important;
 		padding: 15px 0;
 		font-size: 36px;
 		text-align: center;
 		text-decoration: none;
 		color: #fff;
-		background: transparent url(../img/nav-bg-desktop.png) left top no-repeat;
+		margin-bottom: -10px;
 	}
+	
+
 
 	#header .nav .here {
 		color: #000;

@@ -11,7 +11,7 @@ $(function(){
 	links.on('click',function(e){
 		e.preventDefault();
 		var url = $(this).attr('href');
-		
+		links.removeClass('here');
 		$(this).addClass('here');
 		
 		sections.hide();
