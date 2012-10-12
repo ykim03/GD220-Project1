@@ -79,7 +79,7 @@ body {
 	width: 130px;
 	float: left;
 	position: relative;
-	 
+	 text-decoration: none;
 }
 
 #smenu {
@@ -93,7 +93,7 @@ body {
 	height: 60px;
 	width: 130px;
 	float: right;
-	 
+	 text-decoration: none;
 }
 
 #sevents {
@@ -107,7 +107,7 @@ body {
 	height: 60px;
 	width: 130px;
 	float: left;
-	 
+	 text-decoration: none;
 }
 
 #sdirections {
@@ -121,6 +121,7 @@ body {
 	height: 60px;
 	width: 130px;
 	float: right;
+	
 	 
 }
 
@@ -138,14 +139,18 @@ body {
 .imptext {font-size: 24px;}
 
 .bullet {
-	font-size: 18px;
+	font-size: 20px;
 	font-family: 'Crete Round', serif;
+	color: #e64412;
 }
 
 .subcat {
 	font-family: 'Crete Round', serif;
-	font-size: 22px;
+	font-size: 20px;
 	text-decoration: underline;
+	color: #e64412;
+	display: inline-block;
+	margin-top: 5px;
 	}
 
 .item {
@@ -241,6 +246,19 @@ h2.imptext .section {
 	.container {
 		width: 300px;
 	}
+	
+	
+	#two {
+		display: none;
+	}
+	#one {
+		display: inline-block;
+	}
+	
+	#menu {
+		margin-bottom: 20px;
+	}
+	
 @media screen and (min-width:800px){
 	body {
 		
@@ -261,14 +279,17 @@ h2.imptext .section {
 	#reservation {
 		float: right;
 		display: block;
+		margin-right: 10px;
+		margin-top: 10px;
 	}
 	
 	#address {
 		display: block;
-		position: relative;
-		float: right;
+		position: absolute;
 		margin-top: -25px;
 		font-weight: 300;
+		float: right;
+		margin-left: 620px;
 	}
 	
 	#spacing {
@@ -279,8 +300,8 @@ h2.imptext .section {
 		display: block;
 		position: absolute;
 		z-index: 1;
-		margin-top: -40px;
-		margin-left: 30px;
+		margin-top: -45px;
+		margin-left: 40px;
 	}
 
 	
@@ -298,10 +319,11 @@ h2.imptext .section {
 	}
 	h2.imptext {
 		background-color: transparent;
-		color: black;
+		color: #e64412;
 		text-align: left;
 		font-size: 20px;
 		font-weight: 100;
+		font-family: 'Crete Round', serif;
 	} 
 	#about {
 		background: none;
@@ -355,7 +377,7 @@ h2.imptext .section {
 	
 	#events {
 		display: block;
-		margin-top: 40px;		
+		margin-top: 46px;		
 	}
 	
 	#foodq {
@@ -366,7 +388,10 @@ h2.imptext .section {
 		font-size: 24px;
 	}
 	
-
+	#abouttext {
+		display: inline-block;
+		margin-top: 4px;
+	}
 	#aboutpar {
 		display: block;
 		margin-top: 0;
@@ -382,7 +407,7 @@ h2.imptext .section {
 	
 	#content {
 		float: left;
-		width: 620px;
+		width: 600px;
 		margin-left: 20px;
 	}
 	
@@ -390,10 +415,9 @@ h2.imptext .section {
 	#header .nav a {
 		display: inline-block;
 		margin-left: 10px;
-		width: 125px;
+		width: 160px;
 		height: 40px;
 		font-size: 20px !important;
-		padding: 15px 0;
 		font-size: 36px;
 		text-align: center;
 		text-decoration: none;
@@ -424,7 +448,73 @@ h2.imptext .section {
 	}
 	
 	#dmap {
+		display: block;
 		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+	
+	#mobmap {
+		display: none;
+	}
+	
+	#sabout {
+		text-align: center;
+	font-size: 26px;
+	padding-top: 11px;
+	color: white;
+	font-family: 'Crete Round', serif;
+	display: inline-block;
+	background: url(../img/buttons/desktop/button.tif) no-repeat left top;
+	height: 60px;
+	float: right;
+	}
+
+	#smenu {
+		text-align: center;
+	font-size: 26px;
+	padding-top: 11px;
+	color: white;
+	font-family: 'Crete Round', serif;
+	display: inline-block;
+	background: url(../img/buttons/desktop/button.tif) no-repeat left top;
+	height: 60px;
+	float: right;
+	}
+#sevents {
+		text-align: center;
+	font-size: 26px;
+	padding-top: 11px;
+	color: white;
+	font-family: 'Crete Round', serif;
+	display: inline-block;
+	background: url(../img/buttons/desktop/button.tif) no-repeat left top;
+	height: 60px;
+	float: right;
+	}
+#sdirections {
+		text-align: center;
+	font-size: 26px;
+	padding-top: 11px;
+	color: white;
+	font-family: 'Crete Round', serif;
+	display: inline-block;
+	background: url(../img/buttons/desktop/button.tif) no-repeat left top;
+	height: 60px;
+	float: right;
+	}
+	#one {
+		display: none;
+	}
+	#two {
+		display: inline-block;
+	}
+	#dirbullet {
+		margin-top: 46px;
+		text-align: left;
+	}
+	.center {
+		text-align: left;
+		display: inline-block;
 	}
 }
 
